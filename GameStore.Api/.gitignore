@@ -1,0 +1,77 @@
+############################################
+# .NET / Visual Studio
+############################################
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa]ny [Cc]PU/
+[Ll]og/
+
+# VS / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+*.sln.iml
+
+# Dotnet tool restore / caches
+.nuget/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+############################################
+# OS junk
+############################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################################
+# Logs
+############################################
+*.log
+
+############################################
+# Test results / coverage
+############################################
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+############################################
+# Publish output
+############################################
+**/publish/
+**/PublishProfiles/
+
+############################################
+# SQLite / local database files (IMPORTANT)
+############################################
+*.db
+*.db-shm
+*.db-wal
+
+############################################
+# App secrets (do NOT commit real secrets)
+############################################
+secrets.json
+appsettings.*.json
+!appsettings.json
