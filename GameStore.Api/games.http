@@ -1,0 +1,34 @@
+GET http://localhost:5047/games
+
+###
+GET http://localhost:5047/games/1
+
+###
+POST http://localhost:5047/games
+Content-Type: application/json
+
+{
+    "name": "God of war",
+    "genreId": 2,
+    "price": 19.99,
+    "releaseDate": "2026-01-14"
+}
+
+###
+PUT http://localhost:5047/games/2
+Content-Type: application/json
+
+{
+    "name": "Farcry 03",
+    "genreId": 2,
+    "price": 49.99,
+    "releaseDate": "2022-02-25"
+}
+
+###
+DELETE http://localhost:5047/games/3
+
+
+
+###
+GET http://localhost:5047/genres
